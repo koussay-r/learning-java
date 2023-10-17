@@ -2,6 +2,7 @@ public class Point {
     char name;
     int abs;
     int cord;
+    static int test=5;
     public Point(int abs,int cord){
         this.abs=abs;
         this.cord=cord;
