@@ -9,6 +9,7 @@ public class Mesure {
             SomMesures=SomMesures+mesure;
         }
         else{
+            System.out.println("errreuuur");
             nbMesures=0;
         }
     }

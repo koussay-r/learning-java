@@ -1,6 +1,6 @@
 public class EntrerMesures {
     public static void main(String[] args){
-        Mesure m1=new Mesure(30);
+        Mesure m1=new Mesure(30000);
         m1.affiche();
         Mesure m2=new Mesure(300);
         m2.affiche();
