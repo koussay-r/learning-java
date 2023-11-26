@@ -26,7 +26,7 @@ public class Salaire {
         return this.Recrutement;
     }
     public void afficher(){
-        System.out.println("Matricule: " + this.Matricule+"\n Nom: " + this.Nom+"\n Recrutement: " + this.Recrutement);
+        System.out.println("Matricule: " + this.Matricule+" Nom: " + this.Nom+" Recrutement: " + this.Recrutement);
     }
     public double salaire() {
         if (this.Recrutement < 2005) {

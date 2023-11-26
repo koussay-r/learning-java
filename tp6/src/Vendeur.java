@@ -1,7 +1,7 @@
-public class Vondeur extends Salaire {
+public class Vendeur extends Salaire {
     private double Vente;
     private double Pourcentage;
-    public Vondeur(int matricule, String nom, int recrutement, double Vente, double Pourcentage) {
+    public Vendeur(int matricule, String nom, int recrutement, double Vente, double Pourcentage) {
         super(matricule, nom, recrutement);
         this.Vente=Vente;
         this.Pourcentage=Pourcentage;
@@ -18,7 +18,7 @@ public class Vondeur extends Salaire {
     public void setPourcentage(double Pourcentage){
         this.Pourcentage=Pourcentage;
     }
-    public void affiche() {
+    public void afficher() {
         super.afficher();
         System.out.println("Vente: " + Vente + ", Pourcentage: " + Pourcentage);
     }

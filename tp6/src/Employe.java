@@ -6,9 +6,9 @@ public class Employe extends Salaire{
         this.Hsupp = Hsupp;
         this.PHsupp = PHsupp;
     }
-    public void affiche() {
+    public void afficher() {
         super.afficher();
-        System.out.println("Hsupp: " + Hsupp + ", PHsupp: " + PHsupp);
+        System.out.println("nombre d'heures supplémentaires: " + Hsupp + ",  prix par heure supplémentaire: " + PHsupp);
     }
 
     public double salaire() {
