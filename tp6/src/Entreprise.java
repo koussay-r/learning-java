@@ -31,6 +31,7 @@ public class Entreprise {
                 
                     }
                 }
+                
                 System.out.println("                           Nom: "+ancien.getNom()+" recruté en l'an "+ancien.getRecrutement());
                 System.out.println("*****************************************************************************");
 
